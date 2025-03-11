@@ -1,36 +1,17 @@
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+my_cat = 1 #integers
 
-p1 = Person("nusura", 22)
+my_score = 4.5 #float
 
-print(p1.name)
-print(p1.age)
+"python is fun!" # string
 
+names = ["peter", "tommy", "john", "nusura"] #list
 
-class Person:
-  def __init__(self, name, age, address):
-    self.name = name
-    self.age = age
-    self.address = address
+person = { "name": "nusura", "age": 22, "country": "rwanda"} #dictionaries
 
-p1 = Person("nusura", 22, "libijska16")
+info = ("nusura", 22 , "rwandan") #Tuples
 
-print(p1.name)
-print(p1.age)
-print(p1.address)
+fruits = {"apple", "mango"} #sets
 
-class Person:
-  def __init__(self, first_name, second_name, index_number, nationality):
-    self.first_name = first_name
-    self.second_name = second_name
-    self.index_number = index_number
-    self.nationality = nationality
+x = true #booleans
 
-p1 = Person("nusura", "niyomukiza", "35453", "Rwanda")
-
-print(p1.first_name)
-print(p1.second_name)
-print(p1.index_number)
-print(p1.nationality)
+y = false #booleans

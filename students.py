@@ -40,3 +40,6 @@ print(student1["index_number"])
 print(student1["nationality"])
 print(student1["starting_date"])
 print(student1["courses"])
+def add_student(student_list, new_student):
+    student_list.append(new_student)
+    return student_list

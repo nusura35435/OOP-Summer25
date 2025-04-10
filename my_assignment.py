@@ -29,3 +29,12 @@ written in
 more than just one line
 """
 print("Hello, World!")
+
+#python string
+print("Hello")
+print('Hello')
+a = "Hello, World!"
+print(a[1])
+
+for x in "banana":
+  print(x)

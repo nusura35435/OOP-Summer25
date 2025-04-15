@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "ead3895f-3456-4329-9115-18ce182c1fa9",
+      "cell_type": "markdown",
+      "source": "## simple class ever",
+      "metadata": {}
+    },
+    {
+      "id": "5cbc8269-049b-45cc-9837-6c276bf70a63",
+      "cell_type": "code",
+      "source": "class MyCar:\n    pass",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 2
+    },
+    {
+      "id": "065ab73d-dae7-4891-b754-918394b51e90",
+      "cell_type": "markdown",
+      "source": "## simple object ever ",
+      "metadata": {}
+    },
+    {
+      "id": "9f53d5ad-0985-44db-b561-6d7e14f24285",
+      "cell_type": "code",
+      "source": "my_first_car = MyCar()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 3
+    },
+    {
+      "id": "0bbd8673-423a-45ea-9f39-f77db24cfebf",
+      "cell_type": "code",
+      "source": "type(my_first_car)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "execution_count": 4,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "__main__.MyCar"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "id": "e603c238-d142-4e70-a4f2-e41391db5777",
+      "cell_type": "code",
+      "source": "my_second_car = MyCar()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 5
+    },
+    {
+      "id": "a695670b-5ee6-4196-96f6-7be906445dac",
+      "cell_type": "code",
+      "source": "print(my_second_car)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "<__main__.MyCar object at 0x2132148>\n"
+        }
+      ],
+      "execution_count": 6
+    },
+    {
+      "id": "d7197b91-138c-4671-bb26-7677ee3ca3c2",
+      "cell_type": "code",
+      "source": "print(my_first_car)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "<__main__.MyCar object at 0x24d75c0>\n"
+        }
+      ],
+      "execution_count": 7
+    },
+    {
+      "id": "aa7bca92-167c-43d0-b5ec-40badedf3ab2",
+      "cell_type": "markdown",
+      "source": "## Method",
+      "metadata": {}
+    },
+    {
+      "id": "f7de7397-7132-4e7e-b29c-f6cfe7de69ec",
+      "cell_type": "code",
+      "source": "class MyBike:\n    def honk(self):\n        print(\"honk, honk\")\n    ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 8
+    },
+    {
+      "id": "52707467-0f93-4c0e-8750-b1d2f964016b",
+      "cell_type": "code",
+      "source": "bike1 = MyBike()\nbike1.honk()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "honk, honk\n"
+        }
+      ],
+      "execution_count": 9
+    },
+    {
+      "id": "e8a844e7-54fb-4b87-97d9-eef788f690f0",
+      "cell_type": "code",
+      "source": "def honk():\n    print(\"honk, honk\")\nhonk()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "honk, honk\n"
+        }
+      ],
+      "execution_count": 12
+    },
+    {
+      "id": "4a26b090-8c33-4fb4-9ce6-ea5a160f0aab",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
